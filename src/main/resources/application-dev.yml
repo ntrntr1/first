@@ -1,0 +1,13 @@
+server:
+  port: 8082
+  servlet:
+   context-path: /dev
+
+  pageSize: 20
+  devName: Ray
+
+spring:
+ mvc:
+  view:
+    prefix: /
+    suffix: .html
